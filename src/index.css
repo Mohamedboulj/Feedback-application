@@ -31,16 +31,13 @@ header {
   align-items: center;
   margin-bottom: 30px;
 }
-.container h2 {
-  color: #ff6a95;
-}
 
 .card {
   background-color: #fff;
   color: #333;
   border-radius: 15px;
   padding: 40px 50px;
-  margin: 20px 20px;
+  margin: 20px 0;
   position: relative;
 }
 
@@ -53,7 +50,6 @@ header {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
-  
 }
 
 .rating {
@@ -189,15 +185,12 @@ input:focus {
   color: rebeccapurple;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
+
 .about-link {
   display: flex;
   justify-content: flex-end;
 }
 
-/* FIX: Remove position: absolute to keep about icon at the bottom of the
- * document */
 .about-link a {
   color: #fff;
   cursor: pointer;
