@@ -20,14 +20,15 @@ function App() {
                 <FeedbackForm/>
                 <FeedbackStats/>
                 <FeedbackList/>
-                <AboutIconLink/>
+                
+
               </>
             }>
-            </Route>
+            </Route>            
+
             <Route path="/about" element={<AboutPage />} />
-            
           </Routes>
-        
+          <AboutIconLink/>
         </div>
       </BrowserRouter>
     </FeedbackProvider>

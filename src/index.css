@@ -72,6 +72,9 @@ header {
   border: 1px #eee solid;
   transition: 0.3s;
 }
+.text-display{
+  font-weight: 700;
+}
 
 .rating li label {
   position: absolute;

@@ -3,7 +3,7 @@ import FeedbackContext from '../Context/FeedbackContext';
 import { useContext } from 'react';
 import FeedbackItem from "./FeedbackItem";
 
-export default function FeedbackList({ handleClick }) {
+export default function FeedbackList() {
   const {feedback} = useContext(FeedbackContext)
 
   if (!feedback || feedback.length === 0) {
